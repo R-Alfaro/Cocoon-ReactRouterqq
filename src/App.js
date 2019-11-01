@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
@@ -13,7 +13,7 @@ class App extends Component {
         </div>
 
         <div className="body-container container-fluid">
-            <a className="menu-btn" href="javascript:void(0)">
+            <a className="menu-btn" href="javascript:void(0)" alt="test">
                 <i className="ion ion-grid"></i>
           </a>
           
