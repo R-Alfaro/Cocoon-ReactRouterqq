@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
-//import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class AppHome extends Component {
   render() {
     return (
       <div class="App">
@@ -15,7 +14,7 @@ class App extends Component {
         <div className="body-container container-fluid">
             <a className="menu-btn" href="javascript:void(0)" alt="test">
                 <i className="ion ion-grid"></i>
-          </a>
+            </a>
           
             <div className="row justify-content-center">
                 {/* =================== side menu ==================== */}
@@ -287,4 +286,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default AppHome;
