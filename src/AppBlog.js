@@ -30,7 +30,7 @@ class AppBlog extends Component {
                                    <div className="side_menu_section">
                                         <ul className="menu_nav">
                                              <li>
-                                                  <a href="index.html">Home</a>
+                                                  <a href="home.html">Home</a>
                                              </li>
                                              <li>
                                                   <a href="about.html">About Us</a>

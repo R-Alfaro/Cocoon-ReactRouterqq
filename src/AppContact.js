@@ -35,29 +35,19 @@ class AppContact extends Component {
                     <div className="side_menu_section">
                         <ul className="menu_nav">
                             <li>
-                                <a href="index.html">
-                                    Home
-                                </a>
+                                <a href="home.html">Home</a>
                             </li>
                             <li>
-                                <a href="about.html">
-                                    About Us
-                                </a>
+                                <a href="about.html">About Us</a>
                             </li>
                             <li>
-                                <a href="services.html">
-                                    Services
-                                </a>
+                                <a href="services.html">Services</a>
                             </li>
                             <li>
-                                <a href="portfolio.html">
-                                    Portfolio
-                                </a>
+                                <a href="portfolio.html">Portfolio</a>
                             </li>
                             <li>
-                                <a href="blog.html">
-                                    Blog
-                                </a>
+                                <a href="blog.html">Blog</a>
                             </li>
                             <li className="active">
                                 <a href="contact.html">
