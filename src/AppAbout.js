@@ -53,6 +53,9 @@ class AppAbout extends Component {
                                              <li>
                                                   <a href="contact.html">Contact</a>
                                              </li>
+                                             <li>
+                                <a href="elements.html">Elements</a>
+                            </li>
                                         </ul>
                                    </div>
                                    {/* <!--main menu end --> */}

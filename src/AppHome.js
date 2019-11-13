@@ -6,7 +6,7 @@ class AppHome extends Component {
     return (
       <div class="App">
 
-      <div className="loader">
+        <div className="loader">
             <div className="loader-outter"></div>
             <div className="loader-inner"></div>
         </div>
@@ -25,7 +25,6 @@ class AppHome extends Component {
                       <a href="#"><img src="assets/img/logo.png" alt="cocoon"/></a>
                     </div>
                     {/* logo end*/}
-
                 
                     {/* main menu */}
                     <div className="side_menu_section">
@@ -48,6 +47,9 @@ class AppHome extends Component {
                             <li>
                                 <a href="contact.html">Contact</a>
                             </li>
+                            <li>
+                                <a href="elements.html">Elements</a>
+                            </li>                               
                       </ul>
                     </div>
                     {/* main menu end */}

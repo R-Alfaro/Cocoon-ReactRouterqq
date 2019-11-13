@@ -14,6 +14,7 @@ class AppBlog extends Component {
                          <a className="menu-btn" href="javascript:void(0)">
                               <i className="ion ion-grid"></i>
                          </a>
+
                          <div className="row justify-content-center">
                               {/* <!--=================== side menu ====================--> */}
                               <div className="col-lg-2 col-md-3 col-12 menu_block">
@@ -46,6 +47,9 @@ class AppBlog extends Component {
                                              </li>
                                              <li>
                                                   <a href="contact.html">Contact</a>
+                                             </li>
+                                             <li>
+                                                  <a href="elements.html">Elements</a>
                                              </li>
                                         </ul>
                                    </div>
