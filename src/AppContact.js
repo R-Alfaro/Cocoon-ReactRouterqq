@@ -201,8 +201,7 @@ class AppContact extends Component {
                                             </div>
                                                 <div className="col-md-6 col-5 img_section" style={bgColorStyle}>
                                                 {/* <!--map --> */}
-                                                <div id="map" data-lon="24.036176" data-lat="57.039986"
-                                                    className="map"></div>
+                                                <div id="map" data-lon="24.036176" data-lat="57.039986" className="map"></div>
                                                 {/* <!--map end--> */}
                                             </div>
                                         </div>

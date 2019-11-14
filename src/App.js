@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom';
 
 import SideMainMenu from './components/LeftSideMenu/sideMainMenu';
+import SideLogo from './components/LeftSideMenu/sideLogo';
+import SideFilter from './components/LeftSideMenu/sideFilter';
+import SideSocialCopyRight from './components/LeftSideMenu/sideSocialCopyright';
+
 import Home from './components/Home/home';
 import About from "./components/About/about";
 import Services from './components/Services/services';
@@ -11,9 +15,6 @@ import Contact from './components/Contact/contact';
 import Element from './components/Element/element';
 
 import './App.css';
-import SideLogo from './components/LeftSideMenu/sideLogo';
-import SideFilter from './components/LeftSideMenu/sideFilter';
-import SideSocialCopyRight from './components/LeftSideMenu/sideSocialCopyright';
 
 class App extends Component {
      render() {
@@ -24,12 +25,12 @@ class App extends Component {
                               <div className="loader-outter"></div>
                               <div className="loader-inner"></div>
                          </div>
+
                          <div className="body-container container-fluid">
                               <a className="menu-btn" href="javascript:void(0)">
                                    <i className="ion ion-grid"></i>
                               </a>
                               <div className="row justify-content-center">
-
                                    {/* =================== side menu ==================== */}
                                    <div className="col-lg-2 col-md-3 col-12 menu_block">
                                         {/* <!--logo --> */}
@@ -52,7 +53,6 @@ class App extends Component {
 
                                    {/* =================== content body ====================*/}
                                    <div className="col-lg-10 col-md-9 col-12 body_block align-content-center">
-                                        <h1>Hello React Router</h1>
                                         <Route exact path='/' component={Home} />
                                         <Route path='/about' component={About} />
                                         <Route path='/services' component={Services} />

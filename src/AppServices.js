@@ -108,7 +108,6 @@ class AppServices extends Component {
 
                         {/* <!--=================== content body ====================--> */}
                         <div className="col-lg-10 col-md-9 col-12 body_block align-content-center">
-                            <div>
                                 {/* <!--=================== image card start here  (has two section left and right )====================--> */}
                                 <div className="img_card">
                                     <div className="row justify-content-center">
@@ -218,8 +217,7 @@ class AppServices extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-md-6 col-5 img_section" style={bgImageStyle}></div>
-                                    </div>
+                                    <div className="col-md-6 col-5 img_section" style={bgImageStyle}></div>
                                 </div>
                                 {/* <!--=================== image card end here ====================--> */}
                             </div>
@@ -227,6 +225,7 @@ class AppServices extends Component {
                         {/* <!--=================== content body end ====================--> */}
                     </div>
                 </div>
+            
             </div>
           );
      }
