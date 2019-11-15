@@ -15,18 +15,13 @@ const About = () => {
                                         <div>
                                              <h3>Just a few words about us</h3>
                                              <p>
-                                                  Lorem ipsum dolor sit amet, consectetur
-                                                  adipiscing elit. Curabitur leo est, feugiat nec
-                                                  elementum id, suscipit id nulla. Nulla sit amet
-                                                  luctus dolor. Etiam finibus consequat ante ac
-                                                  congue. Quisque porttitor porttitor tempus.
-                                                  Donec maximus ipsum non ornare vestibulum. Sed
-                                                  libero nibh, feugiat at enim id, bibendum
-                                                  sollicitudin arcu. Aliquam elit nibh, finibus
-                                                  eget mauris non, pretium vehicula ipsum. Class
-                                                  aptent taciti sociosqu ad litora torquent per
+                                                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec
+                                                  elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus consequat ante ac
+                                                  congue. Quisque porttitor porttitor tempus. Donec maximus ipsum non ornare vestibulum. Sed
+                                                  libero nibh, feugiat at enim id, bibendum sollicitudin arcu. Aliquam elit nibh, finibus
+                                                  eget mauris non, pretium vehicula ipsum. Class aptent taciti sociosqu ad litora torquent per
                                                   conubia nostra, per inceptos himenaeos.
-                                                  </p>
+                                             </p>
                                              {/* <!--=================== counter start====================--> */}
                                              <div className="pt50">
                                                   <div className="row justify-content-center">
@@ -37,6 +32,7 @@ const About = () => {
                                                                  <h5>Years of experience</h5>
                                                             </div>
                                                        </div>
+
                                                        <div className="col-12 col-md-4">
                                                             <div className="counter_box">
                                                                  <div className="divider"></div>
@@ -44,6 +40,7 @@ const About = () => {
                                                                  <h5>happy clients</h5>
                                                             </div>
                                                        </div>
+
                                                        <div className="col-12 col-md-4">
                                                             <div className="counter_box">
                                                                  <div className="divider"></div>
@@ -51,6 +48,7 @@ const About = () => {
                                                                  <h5>projects completed</h5>
                                                             </div>
                                                        </div>
+
                                                   </div>
                                              </div>
                                              {/* <!--=================== counter end====================--> */}
@@ -60,65 +58,53 @@ const About = () => {
 
                                              <div className="testimonial_box">
                                                   <p>
-                                                       Lorem ipsum dolor sit amet, consectetur
-                                                       adipiscing elit. Curabitur leo est, feugiat
-                                                       nec elementum id, suscipit id nulla. Nulla
-                                                       sit amet luctus dolor. Etiam finibus
-                                                       consequat ante ac congue. Quisque porttitor
-                                                       porttitor tempus.
-                                                       </p>
+                                                       Lorem(1) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
+                                                       nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
+                                                       consequat ante ac congue. Quisque porttitor porttitor tempus.
+                                                  </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
-                                                       <p>project manager <span>company</span></p>
+                                                       <p>project manager (1) <span>company</span></p>
                                                   </div>
                                              </div>
 
                                              <div className="testimonial_box">
                                                   <p>
-                                                       Lorem ipsum dolor sit amet, consectetur
-                                                       adipiscing elit. Curabitur leo est, feugiat
-                                                       nec elementum id, suscipit id nulla. Nulla
-                                                       sit amet luctus dolor. Etiam finibus
-                                                       consequat ante ac congue. Quisque porttitor
-                                                       porttitor tempus.
+                                                       Lorem(2) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
+                                                       nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
+                                                       consequat ante ac congue. Quisque porttitor porttitor tempus.
                                                        </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
-                                                       <p>project manager <span>company</span></p>
+                                                       <p>project manager (2) <span>company</span></p>
                                                   </div>
                                              </div>
 
                                              <div className="testimonial_box">
                                                   <p>
-                                                       Lorem ipsum dolor sit amet, consectetur
-                                                       adipiscing elit. Curabitur leo est, feugiat
-                                                       nec elementum id, suscipit id nulla. Nulla
-                                                       sit amet luctus dolor. Etiam finibus
-                                                       consequat ante ac congue. Quisque porttitor
-                                                       porttitor tempus.
+                                                       Lorem(3) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
+                                                       nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
+                                                       consequat ante ac congue. Quisque porttitor porttitor tempus.
                                                        </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
-                                                       <p>project manager <span>company</span></p>
+                                                       <p>project manager (3) <span>company</span></p>
                                                   </div>
                                              </div>
 
                                              <div className="testimonial_box">
                                                   <p>
-                                                       Lorem ipsum dolor sit amet, consectetur
-                                                       adipiscing elit. Curabitur leo est, feugiat
-                                                       nec elementum id, suscipit id nulla. Nulla
-                                                       sit amet luctus dolor. Etiam finibus
-                                                       consequat ante ac congue. Quisque porttitor
-                                                       porttitor tempus.
+                                                       Lorem(4) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
+                                                       nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
+                                                       consequat ante ac congue. Quisque porttitor porttitor tempus.
                                                        </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
-                                                       <p>project manager <span>company</span></p>
+                                                       <p>project manager (4) <span>company</span></p>
                                                   </div>
                                              </div>
                                         </div>

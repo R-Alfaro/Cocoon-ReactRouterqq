@@ -1,0 +1,7 @@
+.App .content_box_inner {
+     text-align: left;
+}
+   
+.App .img_card .img_section {
+  background-image: 'url("assets/img/bg/about.png")'
+}

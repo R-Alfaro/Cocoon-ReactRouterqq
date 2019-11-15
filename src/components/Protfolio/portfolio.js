@@ -4,6 +4,7 @@ const Portfolio = () => {
      return (
           <div className="portfolio gutters grid img-container">
                <div className="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+
                <div className="grid-item branding col-sm-12 col-md-6 col-lg-3">
                     <a href="assets/img/portfolio/port1.png" title="project name 1">
                          <div className="project_box_one">
@@ -19,6 +20,7 @@ const Portfolio = () => {
                          </div>
                     </a>
                </div>
+
                <div className="grid-item branding architecture col-md-6 col-lg-3">
                     <a href="assets/img/portfolio/port2.png" title="project name 2">
                          <div className="project_box_one">
@@ -34,6 +36,7 @@ const Portfolio = () => {
                          </div>
                     </a>
                </div>
+
                <div className="grid-item design col-sm-12 col-md-6 col-lg-3">
                     <a href="assets/img/portfolio/port3.png" title="project name 5">
                          <div className="project_box_one">
