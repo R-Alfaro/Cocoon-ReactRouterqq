@@ -55,7 +55,6 @@ const About = () => {
                                         </div>
                                         {/* <!--===================testimonial start====================--> */}
                                         <div className="testimonial_carousel mt50">
-
                                              <div className="testimonial_box">
                                                   <p>
                                                        Lorem(1) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
@@ -74,7 +73,7 @@ const About = () => {
                                                        Lorem(2) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
                                                        nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
                                                        consequat ante ac congue. Quisque porttitor porttitor tempus.
-                                                       </p>
+                                                  </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
@@ -87,7 +86,7 @@ const About = () => {
                                                        Lorem(3) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
                                                        nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
                                                        consequat ante ac congue. Quisque porttitor porttitor tempus.
-                                                       </p>
+                                                  </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
@@ -100,7 +99,7 @@ const About = () => {
                                                        Lorem(4) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat
                                                        nec elementum id, suscipit id nulla. Nulla sit amet luctus dolor. Etiam finibus
                                                        consequat ante ac congue. Quisque porttitor porttitor tempus.
-                                                       </p>
+                                                  </p>
                                                   <div className="testimonial_author">
                                                        <img src="assets/img/user.png" alt="author" />
                                                        <h5>maria smith</h5>
