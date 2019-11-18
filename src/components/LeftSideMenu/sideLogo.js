@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link, NavLink } from 'react-router-dom';
 
 const SideLogo = () => {
      return (
           <div className="logo_box">
-               <a href="#">
+               <Link to="/" rel="noopener noreferrer">
                     <img src="assets/img/logo.png" alt="cocoon" />
-               </a>
+               </Link>
           </div>
      )
 }
