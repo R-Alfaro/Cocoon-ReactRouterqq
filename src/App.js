@@ -20,7 +20,7 @@ class App extends Component {
      render() {
           return (
                <BrowserRouter>
-                    <div class="App">
+                    <div className="App">
                          <div className="loader">
                               <div className="loader-outter"></div>
                               <div className="loader-inner"></div>
