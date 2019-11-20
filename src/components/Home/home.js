@@ -3,27 +3,29 @@ import axios from 'axios';
 
 class Home extends Component {
      state = {
-          posts: []
+          posts: {}
      }
 
      componentDidMount() {
-          axios.get('https://jsonplaceholder.typicode.com/posts')
+          // axios.get('https://jsonplaceholder.typicode.com/posts')
+          axios.get('./data/home.json')
                .then(res => {
                     this.setState({
-                         posts: res.data.slice(0, 5)
+                         posts: (res.data)
                     })
                })
                .catch();
      }
 
+     // posts.map(post => {
+     //      console.log(post.title)
+     // })
+
      render() {
           const { posts } = this.state;
+          console.log(posts.name)
           const postList = posts.length ? (
-               posts.map(post => {
-                    console.log(post.title)
-               })
-          ) : (console.log("==============>No Post Yet"));
-
+               console.log(posts)) : (console.log("==============>No Post Yet"));
           return (
                <div className="portfolio">
                     <div className="container-fluid">
