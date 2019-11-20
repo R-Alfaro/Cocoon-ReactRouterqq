@@ -1,31 +1,47 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { getDefaultWatermarks } from 'istanbul-lib-report';
 
 class Home extends Component {
-     state = {
-          posts: {}
+     constructor(props) {
+          super(props);
+
+          this.state = {
+               data: ''
+          };
      }
 
-     componentDidMount() {
-          // axios.get('https://jsonplaceholder.typicode.com/posts')
+     UNSAFE_componentWillMount() {
+          this.getData();
+     }
+
+     getData = () => {
+          console.log("########################################### inputfile");
           axios.get('./data/home.json')
                .then(res => {
                     this.setState({
-                         posts: (res.data)
+                         data: JSON.parse(JSON.stringify(res.data)),
                     })
+                    console.log("...... getDataHome", this.state.data);
                })
-               .catch();
+               .catch(function (error) {
+                    console.log(error);
+               })
+
+          return this.state.data;
      }
 
-     // posts.map(post => {
-     //      console.log(post.title)
-     // })
-
      render() {
-          const { posts } = this.state;
-          console.log(posts.name)
-          const postList = posts.length ? (
-               console.log(posts)) : (console.log("==============>No Post Yet"));
+          const { data } = this.state;
+
+          if (data !== '') {
+               const listAbout = data.aboutList.map((data) =>
+                    console.log("_____________ Get Content", data.content)
+               );
+          } else {
+               console.log("_____________ Get Content Skipped")
+          }
+
           return (
                <div className="portfolio">
                     <div className="container-fluid">
