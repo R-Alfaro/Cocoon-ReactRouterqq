@@ -8,7 +8,7 @@ const Services = () => {
 
      return (
           <div className="body-container container-fluid">
-               <a className="menu-btn" href="javascript:void(0)">
+               <a className="menu-btn" href="#" onClick={e => e.preventDefault()}>
                     <i className="ion ion-grid"></i>
                </a>
 

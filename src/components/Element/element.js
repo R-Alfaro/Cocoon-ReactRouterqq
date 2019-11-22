@@ -14,7 +14,6 @@ const Element = () => {
      return (
           <div className="elements">
                <h3>Elements</h3>
-
                {/* <!--button elements--> */}
                <div className="element_section mt30 mb50">
                     <div className="section_title">
@@ -38,162 +37,129 @@ const Element = () => {
                          <div className="row justify-content-center">
                               <div className="col-12 col-md-6">
                                    <div className="progress_container">
-
-                                   <div className="single_progressbar">
-                                        <div className="progress">
-                                             <div className="progress-bar" role="progressbar"
-                                                  data-transitiongoal="80"></div>
+                                        <div className="single_progressbar">
+                                             <div className="progress">
+                                                  <div className="progress-bar" role="progressbar" data-transitiongoal="80"></div>
+                                             </div>
+                                             <div className="progress_text">
+                                                  <span>Management</span>
+                                                  <span className="progress_num" style={left80}>80%</span>
+                                             </div>
                                         </div>
-                                        <div className="progress_text">
-                                             <span>Management</span>
-                                                       <span className="progress_num" style={left80}>80%</span>
+                                        <div className="single_progressbar">
+                                             <div className="progress">
+                                                  <div className="progress-bar" role="progressbar" data-transitiongoal="90"></div>
+                                             </div>
+                                             <div className="progress_text">
+                                                  <span>Design</span>
+                                                  <span className="progress_num" style={left90}>90%</span>
+                                             </div>
                                         </div>
-                                   </div>
-
-                                   <div className="single_progressbar">
-                                        <div className="progress">
-                                             <div className="progress-bar" role="progressbar"
-                                                  data-transitiongoal="90"></div>
+                                        <div className="single_progressbar">
+                                             <div className="progress">
+                                                  <div className="progress-bar" role="progressbar" data-transitiongoal="85"></div>
+                                             </div>
+                                             <div className="progress_text">
+                                                  <span>Development</span>
+                                                  <span className="progress_num" style={left85}>85%</span>
+                                             </div>
                                         </div>
-                                        <div className="progress_text">
-                                             <span>Design</span>
-                                             <span className="progress_num" style={left90}>90%</span>
-                                        </div>
-                                   </div>
-
-                                   <div className="single_progressbar">
-                                        <div className="progress">
-                                             <div className="progress-bar" role="progressbar"
-                                                  data-transitiongoal="85"></div>
-                                        </div>
-                                        <div className="progress_text">
-                                             <span>Development</span>
-                                             <span className="progress_num" style={left85}>85%</span>
-                                        </div>
-                                   </div>
-
-
                                    </div>
                               </div>
                               <div className="col-12 col-md-6">
-
                                    <div id="accordion" role="tablist">
-
-                                   <div className="card accordion_card">
-                                        <div className="card-header" role="tab" id="headingOne">
-                                             <h5>
-                                                  <a data-toggle="collapse"
-                                                       href="#collapseOne" role="button"
-                                                       aria-expanded="true"
-                                                       aria-controls="collapseOne">
-                                                       Collapsible Group Item #1
-                                                  </a>
-                                             </h5>
+                                        <div className="card accordion_card">
+                                             <div className="card-header" role="tab" id="headingOne">
+                                                  <h5>
+                                                       <a data-toggle="collapse" href="#collapseOne" role="button" aria-expanded="true" aria-controls="collapseOne">
+                                                            Collapsible Group Item #1
+                                                       </a>
+                                                  </h5>
+                                             </div>
+                                             <div id="collapseOne" className="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#accordion">
+                                                  <div className="card-body">
+                                                       Anim pariatur cliche reprehenderit, enim
+                                                       eiusmod high life accusamus terry richardson
+                                                       ad squid. 3 wolf moon officia aute, non
+                                                       cupidatat skateboard dolor brunch. Food
+                                                       truck quinoa nesciunt laborum eiusmod.
+                                                       Brunch 3 wolf moon tempor, sunt aliqua put a
+                                                       bird on it squid single-origin coffee nulla
+                                                       assumenda shoreditch et. Nihil anim keffiyeh
+                                                       helvetica, craft beer labore wes anderson
+                                                       cred nesciunt sapiente ea proident. Ad vegan
+                                                       excepteur butcher vice lomo. Leggings
+                                                       occaecat craft beer farm-to-table, raw denim
+                                                       aesthetic synth nesciunt you probably
+                                                       haven't heard of them accusamus labore
+                                                       sustainable VHS.
+                                                  </div>
+                                             </div>
                                         </div>
-                                        <div id="collapseOne" className="collapse"
-                                             role="tabpanel" aria-labelledby="headingOne"
-                                             data-parent="#accordion">
-                                             <div className="card-body">
-                                                  Anim pariatur cliche reprehenderit, enim
-                                                  eiusmod high life accusamus terry richardson
-                                                  ad squid. 3 wolf moon officia aute, non
-                                                  cupidatat skateboard dolor brunch. Food
-                                                  truck quinoa nesciunt laborum eiusmod.
-                                                  Brunch 3 wolf moon tempor, sunt aliqua put a
-                                                  bird on it squid single-origin coffee nulla
-                                                  assumenda shoreditch et. Nihil anim keffiyeh
-                                                  helvetica, craft beer labore wes anderson
-                                                  cred nesciunt sapiente ea proident. Ad vegan
-                                                  excepteur butcher vice lomo. Leggings
-                                                  occaecat craft beer farm-to-table, raw denim
-                                                  aesthetic synth nesciunt you probably
-                                                  haven't heard of them accusamus labore
-                                                  sustainable VHS.
+                                        <div className="card accordion_card">
+                                             <div className="card-header" role="tab" id="headingTwo">
+                                                  <h5>
+                                                       <a className="collapsed" data-toggle="collapse" href="#collapseTwo" role="button" aria-expanded="false"
+                                                            aria-controls="collapseTwo">
+                                                            Collapsible Group Item #2
+                                                       </a>
+                                                  </h5>
+                                             </div>
+                                             <div id="collapseTwo" className="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                  <div className="card-body">
+                                                       Anim pariatur cliche reprehenderit, enim
+                                                       eiusmod high life accusamus terry richardson
+                                                       ad squid. 3 wolf moon officia aute, non
+                                                       cupidatat skateboard dolor brunch. Food
+                                                       truck quinoa nesciunt laborum eiusmod.
+                                                       Brunch 3 wolf moon tempor, sunt aliqua put a
+                                                       bird on it squid single-origin coffee nulla
+                                                       assumenda shoreditch et. Nihil anim keffiyeh
+                                                       helvetica, craft beer labore wes anderson
+                                                       cred nesciunt sapiente ea proident. Ad vegan
+                                                       excepteur butcher vice lomo. Leggings
+                                                       occaecat craft beer farm-to-table, raw denim
+                                                       aesthetic synth nesciunt you probably
+                                                       haven't heard of them accusamus labore
+                                                       sustainable VHS.
+                                                  </div>
+                                             </div>
+                                        </div>
+                                        <div className="card accordion_card">
+                                             <div className="card-header" role="tab" id="headingThree">
+                                                  <h5>
+                                                       <a className="collapsed" data-toggle="collapse" href="#collapseThree" role="button" aria-expanded="false"
+                                                            aria-controls="collapseThree">
+                                                            Collapsible Group Item #3
+                                                       </a>
+                                                  </h5>
+                                             </div>
+                                             <div id="collapseThree" className="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#accordion">
+                                                  <div className="card-body">
+                                                       Anim pariatur cliche reprehenderit, enim
+                                                       eiusmod high life accusamus terry richardson
+                                                       ad squid. 3 wolf moon officia aute, non
+                                                       cupidatat skateboard dolor brunch. Food
+                                                       truck quinoa nesciunt laborum eiusmod.
+                                                       Brunch 3 wolf moon tempor, sunt aliqua put a
+                                                       bird on it squid single-origin coffee nulla
+                                                       assumenda shoreditch et. Nihil anim keffiyeh
+                                                       helvetica, craft beer labore wes anderson
+                                                       cred nesciunt sapiente ea proident. Ad vegan
+                                                       excepteur butcher vice lomo. Leggings
+                                                       occaecat craft beer farm-to-table, raw denim
+                                                       aesthetic synth nesciunt you probably
+                                                       haven't heard of them accusamus labore
+                                                       sustainable VHS.
+                                                  </div>
                                              </div>
                                         </div>
                                    </div>
-
-
-                                   <div className="card accordion_card">
-                                        <div className="card-header" role="tab" id="headingTwo">
-                                             <h5>
-                                                  <a className="collapsed" data-toggle="collapse"
-                                                       href="#collapseTwo" role="button"
-                                                       aria-expanded="false"
-                                                       aria-controls="collapseTwo">
-                                                       Collapsible Group Item #2
-                                                  </a>
-                                             </h5>
-                                        </div>
-                                        <div id="collapseTwo" className="collapse"
-                                             role="tabpanel" aria-labelledby="headingTwo"
-                                             data-parent="#accordion">
-                                             <div className="card-body">
-                                                  Anim pariatur cliche reprehenderit, enim
-                                                  eiusmod high life accusamus terry richardson
-                                                  ad squid. 3 wolf moon officia aute, non
-                                                  cupidatat skateboard dolor brunch. Food
-                                                  truck quinoa nesciunt laborum eiusmod.
-                                                  Brunch 3 wolf moon tempor, sunt aliqua put a
-                                                  bird on it squid single-origin coffee nulla
-                                                  assumenda shoreditch et. Nihil anim keffiyeh
-                                                  helvetica, craft beer labore wes anderson
-                                                  cred nesciunt sapiente ea proident. Ad vegan
-                                                  excepteur butcher vice lomo. Leggings
-                                                  occaecat craft beer farm-to-table, raw denim
-                                                  aesthetic synth nesciunt you probably
-                                                  haven't heard of them accusamus labore
-                                                  sustainable VHS.
-                                             </div>
-                                        </div>
-                                   </div>
-
-
-                                   <div className="card accordion_card">
-                                        <div className="card-header" role="tab"
-                                             id="headingThree">
-                                             <h5>
-                                                  <a className="collapsed" data-toggle="collapse"
-                                                       href="#collapseThree" role="button"
-                                                       aria-expanded="false"
-                                                       aria-controls="collapseThree">
-                                                       Collapsible Group Item #3
-                                                  </a>
-                                             </h5>
-                                        </div>
-                                        <div id="collapseThree" className="collapse"
-                                             role="tabpanel" aria-labelledby="headingThree"
-                                             data-parent="#accordion">
-                                             <div className="card-body">
-                                                  Anim pariatur cliche reprehenderit, enim
-                                                  eiusmod high life accusamus terry richardson
-                                                  ad squid. 3 wolf moon officia aute, non
-                                                  cupidatat skateboard dolor brunch. Food
-                                                  truck quinoa nesciunt laborum eiusmod.
-                                                  Brunch 3 wolf moon tempor, sunt aliqua put a
-                                                  bird on it squid single-origin coffee nulla
-                                                  assumenda shoreditch et. Nihil anim keffiyeh
-                                                  helvetica, craft beer labore wes anderson
-                                                  cred nesciunt sapiente ea proident. Ad vegan
-                                                  excepteur butcher vice lomo. Leggings
-                                                  occaecat craft beer farm-to-table, raw denim
-                                                  aesthetic synth nesciunt you probably
-                                                  haven't heard of them accusamus labore
-                                                  sustainable VHS.
-                                             </div>
-                                        </div>
-                                   </div>
-
-
-                                   </div>
-
-
                               </div>
                          </div>
                     </div>
                </div>
                {/* <!--progress bars  elements end--> */}
-
 
                {/* <!--counter elements--> */}
                <div className="element_section mt30 mb50">
@@ -234,7 +200,6 @@ const Element = () => {
                     </div>
                </div>
                {/* <!--counter elements end--> */}
-
 
                {/* <!--Image icon box elements--> */}
                <div className="element_section mt30 mb50">
@@ -295,7 +260,6 @@ const Element = () => {
                     </div>
                </div>
                {/* <!--Image icon box end--> */}
-
 
                {/* <!--Fonts icon box elements--> */}
                <div className="element_section mt30 mb50">

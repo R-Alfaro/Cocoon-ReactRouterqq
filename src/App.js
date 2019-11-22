@@ -27,7 +27,7 @@ class App extends Component {
                          </div>
 
                          <div className="body-container container-fluid">
-                              <a className="menu-btn" href="javascript:void(0)">
+                              <a className="menu-btn" href="#" onClick={e => e.preventDefault()}>
                                    <i className="ion ion-grid"></i>
                               </a>
                               <div className="row justify-content-center">
