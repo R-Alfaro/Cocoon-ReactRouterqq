@@ -34,10 +34,11 @@ class Home extends Component {
 
      render() {
           const { data } = this.state;
+          const listAbout = [];
 
           if (data !== '') {
-               const listAbout = data.aboutList.map((data) =>
-                    console.log("_____________ Get title", data.title)
+               data.HomePortFolioList.map((port) =>
+                    console.log("_____________ Get title", port.title)
                );
           } else {
                console.log("_____________ Get Content Skipped")
@@ -51,7 +52,20 @@ class Home extends Component {
                               <div className="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
 
                               <div className="grid-item fltLeft branding col-sm-12 col-md-6 col-lg-3" >
-                                   <HomeProfolio />
+                                   {/* <HomeProfolio /> */}
+                                   <a href="assets/img/portfolio/home-port1.png" rel="noopener noreferrer" title="project name 1">
+                                        <div className="project_box_one">
+                                             <img src="assets/img/portfolio/home-port1.png" alt="pro1" />
+                                             <div className="product_info">
+                                                  <div className="product_info_text">
+                                                       <div className="product_info_text_inner">
+                                                            <i className="ion ion-plus"></i>
+                                                            <h4>project name</h4>
+                                                       </div>
+                                                  </div>
+                                             </div>
+                                        </div>
+                                   </a>
                               </div>
 
                               <div className="grid-item fltLeft branding architecture col-sm-12 col-md-6" >
