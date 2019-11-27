@@ -1,26 +1,68 @@
 {
      "sectionTitle": "Welcome to Website",
-     "aboutList": [
+     "HomePortFolioList": [
           {
                "key": 0,
-               "image": "fa fa-cogs",
-               "title": "'Fully - Customizible",
-               "content": "Uno Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.",
-               "href": "Read more"
+               "image": "assets/img/portfolio/home-port1.png",
+               "title": "Project Title 1",
+               "alt": "Pro1",
+               "header": "Project Name 1"
           },
           {
                "key": 1,
-               "image": "fa fa-magic",
-               "title": "'Awesome - Features",
-               "content": "Dos Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.",
-               "href": "Read more"
+               "image": "assets/img/portfolio/home-port2.png",
+               "title": "Project Title 2",
+               "alt": "Pro2",
+               "header": "Project Name 2"
           },
           {
                "key": 2,
-               "image": "fa fa-mobile",
-               "title": "'Fully - Responsive",
-               "content": "Tres Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.",
-               "href": "Read more"
+               "image": "assets/img/portfolio/home-port3.png",
+               "title": "Project Title 3",
+               "alt": "Pro3",
+               "header": "Project Name 3"
+          },
+          {
+               "key": 3,
+               "image": "assets/img/portfolio/home-port4.png",
+               "title": "Project Title 4",
+               "alt": "Pro4",
+               "header": "Project Name 14"
+          },
+          {
+               "key": 4,
+               "image": "assets/img/portfolio/home-port5.png",
+               "title": "Project Title 5",
+               "alt": "Pro5",
+               "header": "Project Name 5"
+          },
+          {
+               "key": 5,
+               "image": "assets/img/portfolio/home-port6.png",
+               "title": "Project Title 6",
+               "alt": "Pro6",
+               "header": "Project Name 6"
+          },
+          {
+               "key": 6,
+               "image": "assets/img/portfolio/home-port7.png",
+               "title": "Project Title 7",
+               "alt": "Pro7",
+               "header": "Project Name 7"
+          },
+          {
+               "key": 7,
+               "image": "assets/img/portfolio/home-port8.png",
+               "title": "Project Title 8",
+               "alt": "Pro8",
+               "header": "Project Name 8"
+          },
+          {
+               "key": 8,
+               "image": "assets/img/portfolio/home-port9.png",
+               "title": "Project Title 9",
+               "alt": "Pro9",
+               "header": "Project Name 9"
           }
      ]
 }
