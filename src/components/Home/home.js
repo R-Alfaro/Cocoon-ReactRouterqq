@@ -37,12 +37,16 @@ class Home extends Component {
           const listAbout = [];
 
           if (data !== '') {
-               data.HomePortFolioList.map((port) =>
-                    console.log("_____________ Get title", port.title)
-               );
+               let imageOne = this.state.data.HomePortFolioList[4].image;
+               console.log("_____________ Get image ", this.imageOne)
+
+               // data.HomePortFolioList.map((port) =>
+               //      console.log("_____________ Get title", port.image)
+               // );
           } else {
                console.log("_____________ Get Content Skipped")
           }
+
 
           return (
                <div className="portfolio">
@@ -52,8 +56,8 @@ class Home extends Component {
                               <div className="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
 
                               <div className="grid-item fltLeft branding col-sm-12 col-md-6 col-lg-3" >
-                                   {/* <HomeProfolio /> */}
-                                   <a href="assets/img/portfolio/home-port1.png" rel="noopener noreferrer" title="project name 1">
+                                   <HomeProfolio image={this.imageOne} />
+                                   {/* <a href="assets/img/portfolio/home-port1.png" rel="noopener noreferrer" title="project name 1">
                                         <div className="project_box_one">
                                              <img src="assets/img/portfolio/home-port1.png" alt="pro1" />
                                              <div className="product_info">
@@ -65,7 +69,7 @@ class Home extends Component {
                                                   </div>
                                              </div>
                                         </div>
-                                   </a>
+                                   </a> */}
                               </div>
 
                               <div className="grid-item fltLeft branding architecture col-sm-12 col-md-6" >
