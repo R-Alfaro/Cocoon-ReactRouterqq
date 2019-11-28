@@ -22,13 +22,14 @@ const About = () => {
                                                   eget mauris non, pretium vehicula ipsum. Class aptent taciti sociosqu ad litora torquent per
                                                   conubia nostra, per inceptos himenaeos.
                                              </p>
+
                                              {/* <!--=================== counter start====================--> */}
                                              <div className="pt50">
                                                   <div className="row justify-content-center">
                                                        <div className="col-12 col-md-4">
                                                             <div className="counter_box">
                                                                  <div className="divider"></div>
-                                                                 <span className="counter">12</span>
+                                                                 <span className="counter">22</span>
                                                                  <h5>Years of experience</h5>
                                                             </div>
                                                        </div>

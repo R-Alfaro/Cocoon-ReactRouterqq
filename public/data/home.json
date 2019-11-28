@@ -1,7 +1,6 @@
 {
      "sectionTitle": "Welcome to Website",
-     "HomePortFolioList": [
-          {
+     "HomePortFolioList": [{
                "key": 0,
                "image": "assets/img/portfolio/home-port1.png",
                "title": "Project Title 1",
@@ -27,7 +26,7 @@
                "image": "assets/img/portfolio/home-port4.png",
                "title": "Project Title 4",
                "alt": "Pro4",
-               "header": "Project Name 14"
+               "header": "Project Name 4"
           },
           {
                "key": 4,
