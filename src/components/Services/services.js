@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 const Services = () => {
@@ -30,13 +31,13 @@ const Services = () => {
                                                                       <div className="content">
                                                                            <h5>
                                                                                 Typography Courses
-                                                                 </h5>
+                                                                           </h5>
                                                                            <p>
                                                                                 Lorem ipsum dolor sit amet,
                                                                                 consectetur adipiscing elit.
                                                                                 Curabitur leo est, feugiat nec
                                                                                 elementum.
-                                                                 </p>
+                                                                           </p>
                                                                       </div>
                                                                  </div>
                                                             </div>

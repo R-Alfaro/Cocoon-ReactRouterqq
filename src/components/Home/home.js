@@ -17,7 +17,7 @@ class Home extends Component {
 
      getData = () => {
           console.log("########################################### inputfile");
-          axios.get('./data/home.json')
+          axios.get('./data/homeData.json')
                .then(res => {
                     this.setState({
                          data: JSON.parse(JSON.stringify(res.data)),
