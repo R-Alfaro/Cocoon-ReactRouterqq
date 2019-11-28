@@ -1,0 +1,45 @@
+{
+    "ServicelList": [{
+            "key": 0,
+            "paragraph": "Lorem(1) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id.",
+            "image": "assets/img/icons/typo.png",
+            "imageAlt": "Typo icon",
+            "header": "Typography Courses"
+        },
+        {
+            "key": 1,
+            "paragraph": "Lorem(2) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id.",
+            "image": "assets/img/icons/flask.png",
+            "imageAlt": "Flask icon",
+            "header": "Mix and Match"
+        },
+        {
+            "key": 2,
+            "paragraph": "Lorem(3) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id.",
+            "image": "assets/img/icons/compass.png",
+            "imageAlt": "Compass icon",
+            "header": " Architecture Plans"
+        },
+        {
+            "key": 3,
+            "paragraph": "Lorem(4) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id.",
+            "image": "assets/img/icons/magic.png",
+            "imageAlt": "Magic icon",
+            "header": "Brand Identity"
+        },
+        {
+            "key": 4,
+            "paragraph": "Lorem(5) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id.",
+            "image": "assets/img/icons/idea.png",
+            "imageAlt": "Idea icon",
+            "header": "Interior Design"
+        },
+        {
+            "key": 5,
+            "paragraph": "Lorem(6) ipsum dolor sit amet, consectetur adipiscing elit. Curabitur leo est, feugiat nec elementum id.",
+            "image": "assets/img/icons/satelite.png",
+            "imageAlt": "Satelite icon",
+            "header": "Collateral Design"
+        }
+    ]
+}
